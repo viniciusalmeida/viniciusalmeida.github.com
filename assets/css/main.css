@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #EAEAEA;
+}
+
+h1 {
+    font: 100px 'Bree Serif', arial;
+    margin: 10px 40px;
+    text-shadow: 4px 4px 0px #CCC;
+}
+
+h2 {
+    font: 35px 'Bree Serif', arial;
+    margin: 10px 40px;
+    color: #333;
+    max-width: 1100px;
+}
+
+.imgcontainer {
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: inset 0px 0px 70px #666;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px 40px;
+}
+
+img {
+    width: 200px;
+    position: relative;
+    z-index: -2;
+}
+
+p {
+  margin: 10px 40px 20px 40px;
+  font: 20px 'Bree Serif', arial;
+  max-width: 1100px;
+}
