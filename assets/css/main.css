@@ -21,9 +21,6 @@ h2 {
 }
 
 .imgcontainer {
-    border-radius: 50% 50% 50% 50%;
-    box-shadow: inset 0px 0px 70px #666;
-    overflow: hidden;
     width: 200px;
     height: 200px;
     float: left;
@@ -33,7 +30,6 @@ h2 {
 img {
     width: 200px;
     position: relative;
-    z-index: -2;
 }
 
 p {
