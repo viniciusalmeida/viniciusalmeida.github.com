@@ -20,6 +20,13 @@ h2 {
     max-width: 1100px;
 }
 
+hr {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    margin: 10px 40px;
+}
+
 .imgcontainer {
     width: 200px;
     height: 200px;
