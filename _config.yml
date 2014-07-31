@@ -1,0 +1,12 @@
+# Site settings
+title: Vinícius Almeida
+email: vinialm88@gmail.com
+description: "Consultor/Programador na CodeMiner24"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: vimoding
+github_username:  viniciusalmeida
+
+# Build settings
+markdown: kramdown
+permalink: pretty
