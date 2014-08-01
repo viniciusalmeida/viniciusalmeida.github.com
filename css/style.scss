@@ -1,13 +1,10 @@
 ---
 ---
 
-* {
-  margin: 0;
-  padding: 0;
-}
+// vendor includes
+@import "bourbon/bourbon";
+@import "neat/neat";
 
-body {
-  background: #F1F1F1;
-  color: #CCCCCC;
-}
+// custom stylesheets
+@import "fonts"
 
