@@ -6,6 +6,8 @@ baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: vimoding
 github_username:  viniciusalmeida
+sass:
+  sass_dir: _sass
 
 # Build settings
 markdown: kramdown
