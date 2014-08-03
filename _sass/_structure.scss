@@ -1,0 +1,14 @@
+.wrap {
+  @include outer-container;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .description {
+    @include span-columns(4);
+  }
+
+  .content {
+    @include span-columns(8);
+    margin-bottom: 60px;
+  }
+}

@@ -5,12 +5,14 @@
 
     <body>
 
-    {% include header.html %}
-
-    
     <div class="page-content">
       <div class="wrap">
-        {{ content }}
+        <aside class="description">
+          {% include header.html %}
+        </aside>
+        <article class="content">
+          {{ content }}
+        </article>
       </div>
     </div>
 

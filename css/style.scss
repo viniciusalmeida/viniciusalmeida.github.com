@@ -4,7 +4,10 @@
 // vendor includes
 @import "bourbon/bourbon";
 @import "neat/neat";
+@import "reset";
 
 // custom stylesheets
-@import "fonts"
-
+@import "fonts";
+@import "structure";
+@import "header";
+@import "footer";
