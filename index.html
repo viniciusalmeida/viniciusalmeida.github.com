@@ -12,6 +12,7 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-date">{{ post.date | date: "%-d/%m/%Y" }}</span>
+        <p>{{ post.synopsis }}</p>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
