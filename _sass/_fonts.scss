@@ -1,10 +1,13 @@
+$title-font: 'Arvo', serif;
+$body-font: 'Droid Sans', sans-serif;
+
 h1, h2, h3, h4 {
-  font-family: 'Arvo', serif;
+  font-family: $title-font;
   font-size: 1.5em;
 }
 
 p, a {
-  font-family: 'Droid Sans', sans-serif;
+  font-family: $body-font;
 }
 
 em {
