@@ -1,0 +1,54 @@
+$title-font: 'Arvo', serif;
+$body-font: 'Droid Sans', sans-serif;
+
+h1, h2, h3, h4 {
+  font-family: $title-font;
+  font-size: 1.5em;
+}
+
+p, a {
+  font-family: $body-font;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+code {
+  background: #F1F1F1;
+  padding: 3px 3px 2px;
+  border-radius: 3px;
+  color: #d33737;
+}
+
+blockquote {
+  padding: 0 0 0 20%;
+  color: #CCC;
+  position: relative;
+
+  &:before {
+    content: "\201C";
+    font-size: 100px;
+    position: absolute;
+    top: -15px;
+    left: 20%;
+    margin-left: -50px;
+    color: #F1F1F1;
+  }
+
+  a {
+    color: #999;
+  }
+}
+
+h1 { font-size: 2.3em }
+
+h2 { font-size: 1.8em }
+
+h1, h2, h3, h4, p {
+  margin: 1.2em 0;
+}

@@ -1,0 +1,10 @@
+.header {
+  p {
+    display: block;
+
+    > a {
+      color: #999;
+      margin-top: 15px;
+    }
+  }
+}

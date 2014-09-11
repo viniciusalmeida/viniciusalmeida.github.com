@@ -1,22 +1,18 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Vinícius Almeida</title>
-    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
-    <link href='assets/css/main.css' rel='stylesheet' type='text/css'>
-</head>
-<body>
-    <h1>Vinícius Almeida</h1>
-    <hr>
-    <div class='imgcontainer'>
-        <img src="assets/img/me.jpeg">
-    </div>
-    <h2>Sou um desenvolvedor de Campo Bom. Cidade da região metropolitana de Porto Alegre, no sul do Brasil.</h2>
-    <p>Trabalho na <a href="http://www.codeminer42.com/">Codeminer 42</a> como consultor/desenvolvedor de aplicações web.</p>
-    <p>Contato: <a href="https://twitter.com/vimoding">@vimoding</a> - <a href="http://br.linkedin.com/pub/vin%C3%ADcius-almeida/23/915/425/">Perfil no LinkedIn</a> - <a href="https://github.com/viniciusalmeida">Perfil no GitHub</a></p>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-12887321-6', 'viniciusalmeida.github.io');ga('send', 'pageview');
-    </script>
-</body>
-</html>
+---
+layout: home
+---
+
+<header class="header">
+  <p><a href="#about">About</a></p>
+</header>
+
+<h2>Posts</h2>
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <p><span class="post-date">{{ post.date | date: "%-d/%m/%Y" }} &raquo;</span> {{ post.synopsis }}</p>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,18 @@
+.home {
+
+  .post-link {
+    font-size: 25px;
+    font-family: $title-font;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .post-date {
+    font-family: $body-font;
+    color: #CCC;
+  }
+}
