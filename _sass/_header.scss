@@ -1,13 +1,10 @@
-.site-header {
-  color: #CCC;
+.header {
+  p {
+    display: block;
 
-  .site-title {
-    font-family: 'Arvo', serif;
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .site-description {
-    width: 80%;
+    > a {
+      color: #999;
+      margin-top: 15px;
+    }
   }
 }

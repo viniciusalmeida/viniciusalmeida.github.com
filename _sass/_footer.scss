@@ -2,24 +2,47 @@
   background: #FAFAFA;
   padding: 20px 0;
 
-  svg {
-    width: 20px;
-    display: inline-block;
-    vertical-align: middle;
-    fill: #999;
-  }
+  .about-column {
+    padding: 0 20px;
 
-  .links {
-    list-style: none;
-
-    .links-item {
-      display: inline;
-      margin-right: 25px;
+    .site-title {
+      margin: 0;
+      padding: 0;
 
       > a {
+        font-family: $title-font;
         color: #999;
         text-decoration: none;
       }
     }
+
+    .site-description {
+
+    }
   }
+
+  .links-column {
+    padding: 0 20px;
+
+    svg {
+      width: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      fill: #999;
+    }
+
+    .links {
+      list-style: none;
+
+      .links-item {
+        margin-right: 25px;
+
+        > a {
+          color: #999;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
 }

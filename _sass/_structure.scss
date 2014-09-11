@@ -1,14 +1,33 @@
 .wrap {
   @include outer-container;
-  max-width: 1000px;
+  max-width: 750px;
   margin: 0 auto;
 
-  .description {
-    @include span-columns(4);
+  .content {
+    @include span-columns(12);
+    margin-bottom: 60px;
+    padding: 0 20px;
+  }
+}
+
+.site-footer .wrap {
+  .about-column {
+    @include span-columns(7);
   }
 
-  .content {
-    @include span-columns(8);
-    margin-bottom: 60px;
+  .links-column {
+    @include span-columns(5);
+  }
+}
+
+@media (max-width: 700px) {
+  .site-footer .wrap {
+    .about-column {
+      @include span-columns(12);
+    }
+
+    .links-column {
+      @include span-columns(12);
+    }
   }
 }

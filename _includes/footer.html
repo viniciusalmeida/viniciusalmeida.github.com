@@ -1,8 +1,14 @@
 <footer class="site-footer">
 
+
   <div class="wrap">
 
-    <div class="footer-col-2 column">
+    <div class="about-column">
+      <h1 id="about" class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <p class="site-description">{{ site.description }}</p>
+    </div>
+
+    <div class="links-column">
       <ul class="links">
         {% if site.github_username %}
           <li class="links-item">
