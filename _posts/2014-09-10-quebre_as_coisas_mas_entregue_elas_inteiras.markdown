@@ -23,6 +23,6 @@ E aqui é que fica minha mensagem: cabe ao desenvolvedor refletir sobre essas fu
 
 ## Conclusão
 
-Minha solução para o problema não expressa nenhuma virtuasidade técnica na sua aplicação. Porém, o ponto não é esse. Na verdade é exatamente o oposto disso.
+Minha solução para o problema não expressa nenhuma virtuosidade técnica na sua aplicação. Porém, o ponto não é esse. Na verdade é exatamente o oposto disso.
 
 A palavra chave disso tudo está no nome do plugin mencionado acima. A semântica, junto com a funcionalidade, precisa ser considerada e muito bem ponderada quando desenvolvemos algo para a internet. Um ambiente que apesar de livre, tem seus padrões e convenções. E eles tem seus motivos para estarem lá.
