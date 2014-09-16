@@ -9,7 +9,7 @@ permalink: "sobre_o_sublime_ps"
 
 # Sobre o sublime_ps
 
-O [sublime_ps](https://github.com/viniciusalmeida/sublime_ps) é uma rubygem que injeta configurações pontuais no arquivo de preferências do SublimeText.
+A [sublime_ps](https://github.com/viniciusalmeida/sublime_ps) é uma rubygem que injeta configurações pontuais no arquivo de preferências do SublimeText.
 
 Essas configurações pontuais são informadas em pequenos arquivos de preferências (ou presets) localizados em `~/.sublime_ps`. Este é o exemplo de um desses arquivos:
 
