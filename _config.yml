@@ -10,5 +10,5 @@ sass:
   sass_dir: _sass
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
