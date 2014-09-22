@@ -3,7 +3,7 @@ layout: post
 title:  "Utilize plugins jQuery como um profissional"
 date: 2014-09-22 16:15:48
 categories: jQuery
-synopsis: "Estamos muito bem familiarizados com plugins da jQuery. Reconhecemos seus padrões de inicialização e transmição de nossas preferências para eles. Vamos utilizar essa familiaridade a nosso favor, aplicando uma técnica de auto inicialização e elevando a qualidade do nosso código."
+synopsis: "Estamos muito bem familiarizados com plugins da jQuery. Reconhecemos seus padrões de inicialização e transmissão de nossas preferências para eles. Vamos utilizar essa familiaridade a nosso favor, aplicando uma técnica de auto inicialização e elevando a qualidade do nosso código."
 permalink: "utilize_plugins_jquery_como_um_profissional"
 ---
 
@@ -67,6 +67,6 @@ $(function() {
 
 Ao utilizarmos esse padrão para a inicialização dos plugins de nossas páginas tornamos esse processo - vou bater de novo nessa tecla - escalável. Não mais teremos que fazer código JS tão específico quanto o mencionado na seção onde descrevemos o problema que estamos solucionando.
 
-Toda a informação necessária para o funcionamento do plugin está agora no elemento onde o mesmo será aplicado. Se o aplicarmos no mesmo contexto de página em dois elementos, porém necessitando de propriedades destintas em cada um deles, basta distinguirmos isso na marcação de ambos. Não precisamos mais manipular objetos onde setamos as preferências para cada um desses casos.
+Toda a informação necessária para o funcionamento do plugin está agora no elemento onde o mesmo será aplicado. Se o aplicarmos no mesmo contexto de página em dois elementos, porém necessitando de propriedades distintas em cada um deles, basta distinguirmos isso na marcação de ambos. Não precisamos mais manipular objetos onde setamos as preferências para cada um desses casos e os plugins serão inicializados automaticamente.
 
 Na medida que seu site ou aplicação for crescendo. Essa solução (ou qualquer outra similar que você tenha adotado) vai se mostrar cada vez mais importante.
