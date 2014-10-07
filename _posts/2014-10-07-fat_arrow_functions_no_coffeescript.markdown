@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Fat arrow functions no CoffeeScript"
+title:  "Fat arrow functions em classes do CoffeeScript"
 date: 2014-10-07 16:15:48
 categories: CoffeeScript
 synopsis: "Quem já usou o CoffeeScript sabe o quanto ele torna mais divertido o desenvolvimento no front. Nesse post quero falar um pouco sobre a facilidade proporcionada pelas fat arrows function e também sobre o seu funcionamento."
 permalink: "fat_arrow_functions_no_coffeescript"
 ---
 
-# _Fat arrow functions_ no CoffeeScript
+# _Fat arrow functions_ em classes do CoffeeScript
 
 Tive meu primeiro contato com o [CoffeeScript](http://coffeescript.org) quando entrei para o time da [CodeMiner](http://www.codeminer42.com/). Antes disso não tive nenhum interesse na linguagem, a idéia de ter um intermediário antes de chegar no JavaScript final do meu projeto e o fato de não entender o real controle que eu teria sobre o resultado final do _transpile_ me deixavam com receio quanto ao uso.
 
 A partir do meu contato com a linguagem cada um desses assuntos que me preocupavam iam sendo esclarecidos e hoje minha preferência é pelo Coffee, de longe. Apesar de eu sempre aconselhar qualquer iniciante a estudar o JavaScript primeiro para entender que o Coffee é mais do que uma ferramenta pra escrever código para o front de uma forma hipster. Ele de fato nos ajuda a resolver problemas.
 
-Vez por outra me pego transpilando trechos de código para entender como o Coffee resolve determinados problemas, e me deparo com coisas bem interessantes. Nesse post compartilho minhas deduções de como funcionam as _fat arrow functions_.
+Vez por outra me pego transpilando trechos de código para entender como o Coffee resolve determinados problemas, e me deparo com coisas bem interessantes. Nesse post compartilho minhas deduções de como funcionam as _fat arrow functions_ nas classes que escrevemos em CoffeeScript.
 
 O propósito do post não é de converter alguém para o CoffeeScript, mas expõe uma maneira de tratar o problema que esse recurso da linguagem resolve.
 
