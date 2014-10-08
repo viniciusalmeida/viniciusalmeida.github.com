@@ -3,7 +3,7 @@ layout: post
 title:  "Fat arrow functions em classes do CoffeeScript"
 date: 2014-10-07 16:15:48
 categories: CoffeeScript
-synopsis: "Quem já usou o CoffeeScript sabe o quanto ele torna mais divertido o desenvolvimento no front. Nesse post quero falar um pouco sobre a facilidade proporcionada pelas fat arrows function e também sobre o seu funcionamento."
+synopsis: "Quem já usou o CoffeeScript sabe o quanto ele torna mais divertido o desenvolvimento no front. Nesse post quero falar um pouco sobre a facilidade proporcionada pelas fat arrow functions e também sobre o seu funcionamento."
 permalink: "fat_arrow_functions_no_coffeescript"
 ---
 
