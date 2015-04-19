@@ -3,7 +3,7 @@ layout: post
 title:  "Quebre as coisas, mas entregue elas inteiras"
 date:   2014-09-10 16:15:48
 categories: desenvolvimento
-synopsis: "Hoje em dia no desenvolvimento web é comum precisarmos alterar o comportamento padrão de algumas coisas. Lendo isso você pode lembrar de uma situação ruim que passou com algum requisito maluco para o comportamento de uma página. Mas as vezes essa mudança é algo bom e de fato agrega valor ao produto final."
+synopsis: "No desenvolvimento web precisamos mudar o comportamento padrão de algumas coisas mas algo que não pode ser deixado de lado é a semântica. Vamos falar um pouco sobre isso?"
 permalink: "quebre_as_coisas_mas_entregue_elas_inteiras"
 ---
 

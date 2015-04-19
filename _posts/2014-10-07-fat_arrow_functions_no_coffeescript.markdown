@@ -3,11 +3,11 @@ layout: post
 title:  "Fat arrow functions em classes do CoffeeScript"
 date: 2014-10-07 16:15:48
 categories: CoffeeScript
-synopsis: "Quem já usou o CoffeeScript sabe o quanto ele torna mais divertido o desenvolvimento no front. Nesse post quero falar um pouco sobre a facilidade proporcionada pelas fat arrow functions e também sobre o seu funcionamento."
+synopsis: "Nesse post falo um pouco sobre a facilidade proporcionada pelas fat arrow functions e também sobre o seu funcionamento."
 permalink: "fat_arrow_functions_no_coffeescript"
 ---
 
-# _Fat arrow functions_ em classes do CoffeeScript
+# Fat arrow functions em classes do CoffeeScript
 
 Tive meu primeiro contato com o [CoffeeScript](http://coffeescript.org) quando entrei para o time da [CodeMiner](http://www.codeminer42.com/). Antes disso não tive nenhum interesse na linguagem, a idéia de ter um intermediário antes de chegar no JavaScript final do meu projeto e o fato de não entender o real controle que eu teria sobre o resultado final do _transpile_ me deixavam com receio quanto ao uso.
 

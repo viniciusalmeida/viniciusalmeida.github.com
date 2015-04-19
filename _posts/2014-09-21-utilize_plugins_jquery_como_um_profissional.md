@@ -3,7 +3,7 @@ layout: post
 title:  "Utilize plugins jQuery como um profissional"
 date: 2014-09-22 16:15:48
 categories: jQuery
-synopsis: "Estamos muito bem familiarizados com plugins da jQuery. Reconhecemos seus padrões de inicialização e transmissão de nossas preferências para eles. Vamos utilizar essa familiaridade a nosso favor, aplicando uma técnica de auto inicialização dos plugins e elevando a qualidade do nosso código."
+synopsis: "Estamos muito bem familiarizados com plugins da jQuery. Vamos utilizar essa familiaridade a nosso favor, elevando a qualidade do nosso código."
 permalink: "utilize_plugins_jquery_como_um_profissional"
 ---
 
