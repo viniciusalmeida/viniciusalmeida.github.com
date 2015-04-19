@@ -1,6 +1,6 @@
 .site-footer {
   background: #FAFAFA;
-  padding: 20px 0;
+  padding: 20px 0 50px;
 
   .about-column {
     padding: 0 20px;
@@ -17,7 +17,8 @@
     }
 
     .site-description {
-
+      margin: 0 0 20px;
+      font-size: 1em;
     }
   }
 
@@ -36,6 +37,7 @@
 
       .links-item {
         margin-right: 25px;
+        font-family: $body-font;
 
         > a {
           color: #999;

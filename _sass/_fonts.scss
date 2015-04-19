@@ -1,14 +1,19 @@
-$title-font: 'Arvo', serif;
-$body-font: 'Droid Sans', sans-serif;
+$title-font: 'Lato', serif;
+$body-font: 'Lato', sans-serif;
 
 h1, h2, h3, h4 {
   font-family: $title-font;
+  font-weight: bold;
+}
+
+p {
+  font-family: $body-font;
+  line-height: 1.5em;
   font-size: 1.5em;
 }
 
-p, a {
-  font-family: $body-font;
-  line-height: 25px;
+a {
+  font-family: inherit;
 }
 
 em {
@@ -34,7 +39,7 @@ pre {
 
   code {
     padding: 0;
-    font-size: 15px;
+    font-size: 1.5em;
   }
 }
 

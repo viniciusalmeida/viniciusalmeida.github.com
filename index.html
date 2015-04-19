@@ -2,13 +2,16 @@
 layout: home
 ---
 
-<h2 class="welcome">Bem-vindo! Confira a lista de posts.</h2>
+<h2 class="welcome">Vinícius Almeida<br><small>Bem-vindo! Confira a lista de posts.</small></h2>
+
+<hr>
 
 <ul class="posts">
   {% for post in site.posts %}
     <li>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <p><span class="post-date">{{ post.date | date: "%-d/%m/%Y" }} &raquo;</span> {{ post.synopsis }} <a href="{{ post.url | prepend: site.baseurl }}">[Continuar lendo]</a></p>
+      <p><span class="post-date">{{ post.date | date: "%-d/%m/%Y" }} &#9656;</span> {{ post.synopsis }}</p>
+      <p><a href="{{ post.url | prepend: site.baseurl }}">Continuar lendo &#10095;</a></p>
     </li>
   {% endfor %}
 </ul>

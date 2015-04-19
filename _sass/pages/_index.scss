@@ -1,12 +1,22 @@
 .home {
 
   .welcome {
-    color: #CCC;
-    font-size: 2.3em;
+    color: darken(#CCC, 20%);
+    font-size: 3em;
+    text-align: center;
+
+    small {
+      color: darken(#CCC, 30%);
+      font-size: 0.6em;
+    }
+  }
+
+  .posts {
+    margin-top: 30px;
   }
 
   .post-link {
-    font-size: 25px;
+    font-size: 2em;
     font-family: $title-font;
     text-decoration: none;
     color: inherit;
