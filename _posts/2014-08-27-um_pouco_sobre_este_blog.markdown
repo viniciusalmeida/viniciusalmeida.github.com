@@ -19,7 +19,7 @@ Acredito que, por menor que seja, qualquer opinião ou lição pode ser valiosa.
 
 Muito por influência do seu criador (o estadunidense [@mojombo](https://github.com/mojombo) que é co-founder do GitHub) o Jekyll é a opção ideal para hospedar páginas gratuitamente no [gh-pages](https://pages.github.com/). Através do Jekyll, adicionar dinâmica na hora de gerar nossas páginas estáticas é moleza.
 
-Outro ponto relevante é que a engine já vem com suporte ao [SASS](http://sass-lang.com/) por padrão. E o mais legal: procesando no servidor. Isso significa que não precisamos de nenhum gerenciador de tarefas e seu emaranhado de plugins para usarmos esse maravilhoso recurso (também nos livramos da dor de cabeça que é versionar os arquivos pós-processados).
+Outro ponto relevante é que a engine já vem com suporte ao [SASS](http://sass-lang.com/) por padrão. E o mais legal: processando no servidor. Isso significa que não precisamos de nenhum gerenciador de tarefas e seu emaranhado de plugins para usarmos esse maravilhoso recurso (também nos livramos da dor de cabeça que é versionar os arquivos pós-processados).
 
 Em tempo: se você achou que eu mencionaria o markdown como um pró, você errou o pulo. Uma ferramenta desse tipo que não tenha esse recurso não merece meu respeito.
 
