@@ -3,8 +3,9 @@ layout: post
 title:  "Sobre o sublime_ps"
 date:   2014-09-16 16:15:48
 categories: opensource
-synopsis: "Apresentando a command line application desenvolvida para facilitar a troca de presets de configuração no SublimeText"
+synopsis: "Apresentando a command line application desenvolvida para facilitar a troca de presets de configuração no SublimeText."
 permalink: "sobre_o_sublime_ps"
+
 ---
 
 # Sobre o sublime_ps
