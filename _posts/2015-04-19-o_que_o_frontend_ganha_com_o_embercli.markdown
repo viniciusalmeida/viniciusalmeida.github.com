@@ -33,7 +33,7 @@ A idéia não é eliminar a discussão de aspectos dessa natureza, mas levar ess
 
 Aqui fica muito clara a utilidade de um _mantra_ que aprendi ao ter contato com o Ruby on Rails: __convenções acima das configurações__.
 
-Termos opções de tooling _build in_ no framework de nossa escolha para desenvolver nossas aplicações representa menos tempo decidindo (e acima de tudo configurando) aspectos como:
+Termos opções de tooling _built-in_ no framework de nossa escolha para desenvolver nossas aplicações representa menos tempo decidindo (e acima de tudo configurando) aspectos como:
 
 * Uma suite de testes
 * Uma forma de _mockar_ as respostas esperadas de uma API
