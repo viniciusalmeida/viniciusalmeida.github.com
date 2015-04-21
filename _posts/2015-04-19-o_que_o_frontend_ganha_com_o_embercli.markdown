@@ -48,4 +48,4 @@ Minha intenção aqui foi de indicar o movimento que a comunidade do Ember está
 
 É preciso focar no valor final e melhorar o caminho até lá. Discutir caminhos alternativos infinitos para o nosso objetivo não me parece a melhor opção.
 
-A necessidade desse movimento já foi indicada pelo Lucas Mazza [no FrontInPOA de 2013](https://youtu.be/2iA-Z_xu3DE) (através dela que conheci a citação do Yehuda e a teoria do _Paradoxo da escolha_ :P). Venho pensando sobre isso desde que fui ao evento e esse me parece ser o primeiro indício dessa mudança. Que o seja!
+A necessidade desse movimento já foi indicada pelo Lucas Mazza [no FrontInPOA de 2013](https://youtu.be/2iA-Z_xu3DE) (através dessa palestra que conheci a citação do Yehuda e a teoria do _Paradoxo da escolha_ :P). Venho pensando sobre isso desde que fui ao evento e esse me parece ser o primeiro indício dessa mudança. Que o seja!
