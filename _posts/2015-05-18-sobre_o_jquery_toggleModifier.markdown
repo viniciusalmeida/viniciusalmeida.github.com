@@ -9,7 +9,7 @@ permalink: "sobre_o_jquery_toggleModifier"
 
 # Sobre o jQuery.toggleModifier
 
-**TL&RD:** O [jQuery.toggleModifier](https://github.com/viniciusalmeida/jQuery.toggleModifier) é um plugin desenvolvido para o jQuery que facilita a vida de programadores que optam pelo uso da [metodologia BEM](https://en.bem.info/method/) para organizar seu CSS e por conta disso tem dificuldades com a manipulação dos modificadores que representam os status nas suas aplicações.
+**TL&DR:** O [jQuery.toggleModifier](https://github.com/viniciusalmeida/jQuery.toggleModifier) é um plugin desenvolvido para o jQuery que facilita a vida de programadores que optam pelo uso da [metodologia BEM](https://en.bem.info/method/) para organizar seu CSS e por conta disso tem dificuldades com a manipulação dos modificadores que representam os status nas suas aplicações.
 
 ---
 
