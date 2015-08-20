@@ -19,7 +19,7 @@ O propósito do post não é de converter alguém para o CoffeeScript, mas expõ
 
 ## O `this` no JavaScript
 
-Este certamente é um dos assuntos mais emblemáticos para quem está tendo seu primeiro contato com a linguagem. Em resumo, por padrão, o `this` sempre é referente ao contexto da função. Enquanto modularizamos nosso JavaScript é comum termos problemas para acessar o contexto esperado quando trabalhamos com callbacks, por exemplo. Uma solução é a utilização de closures para oferecer uma referência ao contexto desejado - o já conhecido `var that = this` ou equivalente.
+Este certamente é um dos assuntos mais emblemáticos para quem está tendo seu primeiro contato com a linguagem. Em resumo, por padrão, o `this` sempre é referente ao contexto da função. Enquanto modularizamos nosso JavaScript é comum termos problemas para acessar o contexto esperado quando trabalhamos com callbacks, por exemplo. Uma solução é a utilização de closures para oferecer uma referência ao contexto desejado.
 
 Podemos utilizar também alguns recursos da linguagem para poder forçar esse contexto, mas eu não considero prático. Isso eleva a complexibilidade do código escrito e nos faz sujar nossas mãos com a aplicação dessa solução em escala. Além disso, essa solução fica ainda menos necessária quando sabemos que temos ferramentas como o CoffeeScript que abstrai isso com maestria.
 
@@ -27,7 +27,7 @@ Apesar de termos a opção de utilização do `call`, estamos falando do `apply`
 
 ### Como esse tal `apply` functiona?
 
-O `apply` é um método do objeto `Function`. Para invocarmos uma função através dele e forçarmos o contexto para a mesma precisamos transmitir dois parâmetros pra ele: o objeto que desejamos que seja o contexto da função e um array que será convertido em argumentos para a mesma.
+O `apply` é um método da classe `Function`. Para invocarmos uma função através dele e forçarmos o contexto para a mesma precisamos transmitir dois parâmetros pra ele: o objeto que desejamos que seja o contexto da função e um array que será convertido em argumentos para a mesma.
 
 ```javascript
 myFunction.apply(myContext, ['my', 'arguments']);
@@ -37,7 +37,7 @@ A linha acima invoca `myFunction(['my', 'arguments'])`, sendo que o contexto da 
 
 ## Como as _fat arrow functions_ tiram proveito de `apply`
 
-A especificação ES6 trouxe do CoffeeScript as _arrow functions_. Mas meu aspecto preferido da linguagem são as _fat arrow functions_. São elas que nos são servidas para resolver esse problema de complexibilidade dos escopos fazendo uso do `apply`.
+Esse é meu aspecto preferido da linguagem. São as _fat arrow functions_ que nos são servidas para resolver esse problema de complexibilidade dos escopos fazendo uso do `apply`.
 
 Dando uma olhadinha no JavaScript gerado pelo Coffee podemos observar que ao utilizarmos as _fat arrows_ ele cria uma função denominada `__bind` que retorna uma função que aplica o contexto da nossa classe ao método passado no primeiro parâmetro. Vejamos:
 

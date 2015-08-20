@@ -34,7 +34,7 @@ Se precisarmos inicializar mais um plugin no contexto citado acima, ou até o me
 
 Temos muitas formas de solucionar isto. Vou me apoiar em recursos da própria jQuery para propôr um padrão bastante simples de auto inicialização desses plugins para manter o código enxuto e escalável. Tudo isso baseado nos padrões observados e mencionados acima. Para isso vamos fazer uso de [_custom data attributes_](http://www.w3.org/TR/2011/WD-html5-20110525/elements.html#custom-data-attribute) mantendo a responsabilidade de guardar as informações referentes ao plugin e seu uso no próprio elemento onde o mesmo será aplicado.
 
-### Método `.data()` do jQuery
+### Método `.data()` da jQuery
 
 A jQuery implementa esse método que se responsabiliza de serializar os _data attributes_ dos elementos. Ele nos retorna um objeto com todas as informações que armazenamos nesses atributos.
 
