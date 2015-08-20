@@ -17,7 +17,7 @@ Pra quem não conhece, o [ember-cli](http://www.ember-cli.com/) é uma ferrament
 
 ## A chave de tudo são as convenções combatendo o bikeshedding
 
-Mencionei acima as __convenções de estrutura__. Isso parece algo muito pequeno, não posso tirar a razão de quem pensa assim. Mas o que importa aqui é o significado dessa postura e o que isso pode representar.
+Dei ênfase as __convenções de estrutura__. Isso parece algo muito pequeno, não posso tirar a razão de quem pensa assim. Mas o que importa aqui é o significado dessa postura e o que isso pode representar.
 
 > Queremos ter o máximo de tempo que pudermos para as tarefas desafiadoras.
 >
@@ -27,7 +27,7 @@ Pensando da mesma forma que o Yehuda, empregar tempo discutindo aspectos triviai
 
 Na CodeMiner, utilizamos o termo _bikesheeding_ para nomear esse fenômeno que impacta muito pouco no valor do produto final. E nós o combatemos. Como? Com convenções.
 
-A idéia não é eliminar a discussão de aspectos dessa natureza, mas levar esse debate para um ecossistema maior do que o das nossas aplicações de forma individual.
+A idéia não é eliminar a discussão de aspectos dessa natureza, mas levar esse debate para um escopo maior do que o das nossas aplicações de forma individual.
 
 ### Convenção de tooling
 
@@ -42,10 +42,12 @@ Termos opções de tooling _built-in_ no framework de nossa escolha para desenvo
 
 Eliminar essas decisões do nosso workflow diário representa ganhos expressivos. Afinal, só nesses aspectos supracitados temos uma infinidade de coquetéis de ferramentas. Essa quantidade de opções nos confunde e tem efeito paralisante, a teoria do [Paradoxo da escolha](http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice?language=pt) nos mostra que esse ambiente não é saudável. Principalmente quando falamos sobre produtividade.
 
+Agora adivinhe onde eu encontrei esse stack a um comando de distância? Exatamente. No ember-cli.
+
 ## Conclusão
 
-Minha intenção aqui foi de indicar o movimento que a comunidade do Ember está realizando para melhorar o trabalho com a ferramenta focando bastante nas convenções que eles estão adotando. Essa postura deveria ser norte para a comunidade de desenvolvimento front end em geral.
+Minha intenção aqui foi de indicar o movimento que a comunidade do Ember está realizando para melhorar o trabalho com a ferramenta focando bastante nas convenções que eles estão adotando. E espressar que na minha opinião essa postura deveria ser um norte para a comunidade de desenvolvimento front end em geral.
 
 É preciso focar no valor final e melhorar o caminho até lá. Discutir caminhos alternativos infinitos para o nosso objetivo não me parece a melhor opção.
 
-A necessidade desse movimento já foi indicada pelo Lucas Mazza [no FrontInPOA de 2013](https://youtu.be/2iA-Z_xu3DE) (através dessa palestra que conheci a citação do Yehuda e a teoria do _Paradoxo da escolha_ :P). Venho pensando sobre isso desde que fui ao evento e esse me parece ser o primeiro indício dessa mudança. Que o seja!
+A necessidade desse movimento já foi indicada pelo Lucas Mazza [no FrontInPOA de 2014](https://youtu.be/2iA-Z_xu3DE). Venho pensando sobre isso desde que fui ao evento e esse me parece ser o primeiro indício desse movimento. Que o seja!
