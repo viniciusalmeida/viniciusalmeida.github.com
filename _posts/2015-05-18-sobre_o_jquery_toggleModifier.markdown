@@ -13,24 +13,24 @@ permalink: "sobre_o_jquery_toggleModifier"
 
 ---
 
-Quem já trabalhou com o BEM sabe que uma forma recorrente de se manipular modificadores no padrão do BEM com o jQuery é através do `.toggleClass()` mas  também deve reconhecer que essa abordagem não é muito elegante. Veja o exemplo adicionando um modificador ao elemento HTML `<div class="block_element"></div>`:
+Quem já trabalhou com o BEM juntamente com a jQuery sabe que uma forma recorrente de se manipular modificadores no padrão do BEM com o jQuery é através do `.toggleClass()` mas  também deve reconhecer que essa abordagem não é muito elegante. Veja o exemplo adicionando um modificador ao elemento HTML `<div class="block_element"></div>`:
 
 ```javascript
 .toggleClass('block__element--modifier');
 ```
 
-Isso tem reflexos ruins no código. Escrevemos demais - afinal, o que nos interessa é apenas a parte final da classe, a que representa o nosso modificador - e nosso código JavaScript fica extremamente atrelado ao parentesco entre os elementos dentro do nosso componente.
+Essa abordagem tem reflexos ruins no código. Escrevemos demais - o que nos interessa é apenas a parte final da classe, a que representa o nosso modificador - e nosso código JavaScript fica extremamente atrelado ao parentesco entre os elementos dentro do nosso bloco.
 
 Pensando nisso tudo cheguei ao `toggleModifier()`. Uma forma de adicionar e remover modificadores que leva em consideração as classes já existentes no elemento HTML manipulado pelo método. Esse _approach_ me pareceu uma solução eficiente para abstrair a lógica necessária para a manipulação desses modificadores.
 
-## API do `jQuery.toggleModifier()`
+## Utilização
 
-Para adicionarmos ao elemento HTML `<div class="block__element"></div>` o modificador `--active` basta utilizarmos a instrução:
+Para adicionarmos ao elemento HTML `<div class="block__element"></div>` o modificador `--active` basta utilizarmos a seguinte instrução:
 
 ```javascript
-.toggleModifier('active');
+$('.block__element').toggleModifier('active');
 ```
 
-A mesma instrução remove o modificador e o `.toggleModifier()` ainda permite que vários modificadores diferentes sejam manipulados em um mesmo elemento HTML.
+Isso é o suficitente para remover/adicionar o modificador e ainda por cima o `.toggleModifier()`  permite que vários modificadores diferentes sejam manipulados no mesmo elemento.
 
 Vá até o [repositório no GitHub](https://github.com/viniciusalmeida/jQuery.toggleModifier) e conheça melhor a ferramenta.
