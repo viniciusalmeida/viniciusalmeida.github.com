@@ -26,7 +26,7 @@ Mas ao fazermos uso do operador `&&` nos nossos npm scripts podemos ir bem além
 
 ### Ainda em tempo: `npm install`
 
-O `install` é disparado logo após a instalação do pacote. Considere utiliza-lo para manter seu pacote livre dos arquivos JavaScript que não são seus.
+O `install` é disparado logo após a instalação do pacote. Considere utiliza-lo para manter seu pacote livre dos arquivos JavaScript que não são seus (gerados pelo transpiler).
 
 ## O que ganhamos com isso?
 
