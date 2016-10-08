@@ -20,6 +20,8 @@
     font-family: $title-font;
     text-decoration: none;
     color: inherit;
+    margin-bottom: 30px;
+    display: block;
 
     &:hover {
       text-decoration: underline;
